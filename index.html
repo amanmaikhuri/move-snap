@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MoveSnap - Break the Sit!</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>MoveSnap</h1>
+    </header>
+    <main>
+      <!-- hero section  -->
+        <div class="quotes">
+          <img src="https://picsum.photos/300?random" alt="Quotes image">
+        </div>
+
+        <!-- main app -->
+        <div class="container">
+            <div class="prompt" id="prompt">Take a 5-min walk!</div>
+            <div class="form-group">
+              <input type="text" id="activity" placeholder="Enter activity (e.g., Stretched)">
+              <button onclick="logActivity()">Log Activity</button>
+            </div>
+            <div class="log" id="activityLog">
+              <h3>Activity Log</h3>
+              <ul class="log-card"></ul>
+            </div>
+          </div>
+    </main>
+  <script src="index.js"></script>
+</body>
+</html>
